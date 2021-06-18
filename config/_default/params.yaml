@@ -130,7 +130,7 @@ comments:
     publication: false
     event: false
   disqus:
-    shortname: 'ftapia.dev'
+    shortname: 'ftapia-dev'
     show_count: true
   commento:
     url: ''

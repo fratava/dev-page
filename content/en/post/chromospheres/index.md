@@ -40,7 +40,7 @@ tags:
 - Stars
 
 categories:
-- Post
+- Blog
 ---
 
 
