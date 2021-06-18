@@ -157,8 +157,3 @@ cms:
 icon:
   pack:
     ai: true
-content:
-  form:
-    provider: netlify
-    netlify:
-      captcha: true
