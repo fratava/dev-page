@@ -14,9 +14,9 @@ font_size: L
 
 site_type: Person
 local_business_type: ''
-org_name: ''
-description: ''
-twitter: ''
+org_name: 'giccunam'
+description: 'ftapia.dev PhD student'
+twitter: 'ftapia_va'
 
 # Contact (edit or remove options as required)
 
@@ -122,15 +122,15 @@ breadcrumb:
   page_types:
     book: true
 comments:
-  provider: ''
+  provider: 'disqus'
   commentable:
     post: true
-    book: true
-    project: true
-    publication: true
-    event: true
+    book: false
+    project: false
+    publication: false
+    event: false
   disqus:
-    shortname: ''
+    shortname: 'ftapia.dev'
     show_count: true
   commento:
     url: ''
@@ -146,7 +146,7 @@ map:
   api_key: ''
   zoom: 15
 marketing:
-  google_analytics: ''
+  google_analytics: 'UA-163502824-2'
   google_tag_manager: ''
   google_site_verification: ''
   baidu_site_verification: ''

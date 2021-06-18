@@ -40,8 +40,8 @@ main:
   - name : "Talks"
     url : "#talks"
     weight : 60
-  - name : "Posts"
-    url : "#posts"
+  - name : "Blog"
+    url : "#blog"
     weight : 65     
   - name : "Outreach"
     url : "#outreach"

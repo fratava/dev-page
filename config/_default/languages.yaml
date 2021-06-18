@@ -12,9 +12,9 @@ en:
 es:
   languageCode: es-mexico
   contentDir: content/es
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
+  #title: Chinese website title...
+  params:
+    description: Página personal de Francisco
   menu:
     main:
       - name  : "Inicio"
