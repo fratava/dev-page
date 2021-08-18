@@ -22,8 +22,6 @@ Si tienes duda [contáctame](/es/#contacto).
 
 {{< gdocs src="https://keynotes.ftapia.dev/enes_juriquilla/" >}}
 
-[Presentación online](https://keynotes.ftapia.dev/enes_juriquilla)
-
 ### Presentación PDF
 
 {{< gdocs src="https://drive.google.com/file/d/1PbDt8ArUYpiB2XpDRpcPyQFqH1gnv5Rc/preview" >}}
