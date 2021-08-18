@@ -20,7 +20,9 @@ Si tienes duda [contáctame](/es/#contacto).
 
 ### Presentación online
 
-{{< gdocs src="https://keynotes.ftapia.dev/enes_juriquilla" >}}
+{{< gdocs src="https://keynotes.ftapia.dev/enes_juriquilla/" >}}
+
+[Presentación online](https://keynotes.ftapia.dev/enes_juriquilla)
 
 ### Presentación PDF
 
