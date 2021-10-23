@@ -23,6 +23,7 @@ interests:
 - Chromospheres
 - Radioastronomy
 - High Performance Computing
+- DevOps
 
 # Education to show in About widget
 education:
@@ -69,6 +70,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://www.github.com/fratava
+- icon: gitlab
+  icon_pack: fab
+  link: https://gitlab.com/fratava
 - icon: docker
   icon_pack: fab
   link: https://hub.docker.com/u/ftapia
