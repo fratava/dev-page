@@ -1,22 +1,25 @@
 ---
-title: ¿Qué es la cromosfera?
+title: What the heck is DevOps?
 subtitle: ''
 
 # Summary for listings and search engines
 summary: ''
 
 # Link this post with a project
-projects: 
-- kinich-pakal
+#projects: 
+#- kinich-pakal
+
+#Short name
+slug: DevOps
 
 # Date published
-date: "2021-06-18T00:00:00Z"
+date: "2021-10-20T00:00:00Z"
 
 # Date updated
-lastmod: "2021-06-18T00:00:00Z"
+lastmod: "2021-10-20T00:00:00Z"
 
 # Is this an unpublished draft?
-draft: false
+draft: true
 
 # Show this page in the Featured widget?
 featured: false
@@ -33,10 +36,8 @@ authors:
 - admin
 
 tags:
-- Atmósferas Estelares
-- Cromosferas
-- Estrellas de Secuencia Principal
-- Radioastronomía
+- DevOps
+- IaaS
 
 categories:
 - Blog
