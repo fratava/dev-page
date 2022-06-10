@@ -1,5 +1,5 @@
 ---
-title: What the chromosphere is?
+title: New Insights into Stellar Atmospheres at Millimeter, Sub-millimeter, and Infrared wavelengths
 subtitle: ''
 
 # Summary for listings and search engines
@@ -10,7 +10,7 @@ projects:
 - kinich-pakal
 
 #Short name
-slug: chromosphere
+slug: cool-stars-21
 
 # Date published
 date: "2021-06-18T00:00:00Z"
@@ -19,7 +19,7 @@ date: "2021-06-18T00:00:00Z"
 lastmod: "2022-06-18T00:00:00Z"
 
 # Is this an unpublished draft?
-draft: true
+draft: false
 
 # Show this page in the Featured widget?
 featured: false

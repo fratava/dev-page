@@ -1,11 +1,12 @@
 ---
 # Title, summary, and page position.
 linktitle: Test
-weight: 40
+weight: 7
+icon: vials
+icon_pack: fas
 
 # Page metadata.
-title: Test
-date: "2020-12-31T00:00:00Z"
+title: ''
 type: book  # Do not modify.
 ---
 

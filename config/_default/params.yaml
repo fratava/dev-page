@@ -81,15 +81,15 @@ highlight_languages:
   - c
 math: true
 diagram: true
-privacy_pack: false
+privacy_pack: true
 edit_page:
-  repo_url: ''
+  repo_url: 'https://github.com/fratava/dev-page'
   content_dir: ''
-  repo_branch: main
+  repo_branch: dev
   editable:
     page: false
-    post: false
-    book: false
+    post: true
+    book: true
 show_related:
   book: true
   page: false
@@ -98,7 +98,7 @@ show_related:
   publication: true
   event: true
 reading_time: true
-section_pager: false
+section_pager: true
 docs_section_pager: true
 sharing: true
 copyright_license:
@@ -128,7 +128,7 @@ comments:
     post: true
     book: false
     project: false
-    publication: false
+    publication: true
     event: false
   disqus:
     shortname: 'ftapia-dev'
