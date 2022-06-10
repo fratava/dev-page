@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: 'ftapia.dev' # Website name
-baseurl: 'dev.ftapia.dev' # Website URL
+baseurl: 'ftapia.dev' # Website URL
 copyright: '© ftapia {year}' # Footer text, e.g. '© {year} Me'
 
 ############################
