@@ -10,40 +10,75 @@ title: ''
 type: book  # Do not modify.
 ---
 
-# Instalando el sistema operativo
+# Configurando el clúster
 
-Para la priumer parte, necesitamos instalar el sistema operatico en los nodos y en el nodo maestro. Pra ello ingresaremos a [https://www.raspberrypi.org/software/](https://www.raspberrypi.org/software/) y descargamos Raspberry Pi Imager para nuestro OS y así, poder copiar el sistema operativo en la tarjeta micro SD. Hay que seguir los pasos que se especifican en el siguiente video.
+Una vez que hemos terminado con la parte del hardware, vamos a configurar la parte de software del clúster.
 
-{{< youtube J024soVgEeM >}}
+## Topología del clúster
 
-Después de instalar Raspian en la memoria SD, la expulsamos del equipo y la volvemos a conectar. Debemos seguir las siguientes instrucciones. 
+### Tree
+{{< figure src="https://images.ftapia.me/tree-topo.svg" width="600" align="center" >}}
 
-Linux (Ubuntu)
+### Dragonfly
+{{< figure src="https://images.ftapia.me/dragonfly.svg" width="600" align="center" >}}
 
-* * *
 
-Abrimos una terminal ++ctrl+alt+t++ y tecleamos lo siguiente:
+## Instalando el sistema operativo
 
-``` bash
-cd /mnt/boot
-touch ssh
-exit
-```
+Una vez diseñada nuestra topología, vamos a instalar el sistema operativo en nuestros Raspberrys. Para este proyecto hemos seleccionado a Ubuntu 20.04 64-bit LTS debido a que en nuestro clúster utilizamos la versión de 8 GB ram en los Raspberry y podemos obtener un mejor rendimiento con esta versión del sistema operativo. En caso de que cuentes con una versión de 1 GB o 2 GB de ram, te sugerimos utilizar la versión de 32-bit de Ubuntu 20.04 LTS, ya que en la versión de 64-bits no obtendrás mayor rendimiento y utilizarás más ram, lo cual se reflejará en un menor rendimiento.
 
-Después de eso, desmontamos la memoria SD de la computadora.
+La forma más sencilla de instalar el sistema operativo en las tarjetas microSD es utilizando la heramienta Raspberry Pi Imager. En la siguiente sección detallamos paso a paso el proceso.
 
-MacOS
+### Raspberry Pi Imager
 
-* * *
+Descargamos Raspberry Pi Imager para nuestro sistema operativo desde [https://www.raspberrypi.org/software/](https://www.raspberrypi.org/software/). Una vez instalado lo abrimos y veremos la pantalla principal.
 
-Abrimos una terminal y tecleamos lo siguiente:
+{{< figure src="https://images.ftapia.me/rpi_imager_1.png" width="600" align="center" >}}
 
-``` bash
-cd /Volumes/boot/
-touch ssh
-exit
-```
-Después de eso, desmontamos la memoria SD de la computadora.
+Ahí seleccionaremos el sistema operativo en el botón "CHOOSE OS". Encontraremos varias versiones de Raspbian un fork de Debian, y un pestaña de otros sistemas operativos. Damos click.
+
+{{< figure src="https://images.ftapia.me/rpi_imager_2.png" width="600" align="center" >}}
+
+En esta pestaña encontraremos a Ubuntu y otros sistemas, seleccionamos nuevamente la pestaña de Ubuntu para buscar la versión que utilizaremos.
+
+{{< figure src="https://images.ftapia.me/rpi_imager_3.png" width="600" align="center" >}}
+
+Buscamos la versión "Ubuntu Server 20.04 LTS de 64-bits".
+
+{{< figure src="https://images.ftapia.me/rpi_imager_4.png" width="600" align="center" >}}
+
+YA que la hemos seleccionado, regresamos a la pantalla principal y ahora seleccionamos el botón "CHOOSE STORAGE". Se desplejará un menú en dónde tenedremos que elegir el disco en el cuál deseamos instalar el sistema operativo. En nuestro caso escogeremos la microSD de 32 GB.
+
+{{< figure src="https://images.ftapia.me/rpi_imager_5.png" width="600" align="center" >}}
+
+Recomendamos ampliamente hacer una configuración del sistema en esta etapa. En la siguiente imagen se muestran la configuraciones que tendremos en este clúster. Cambiaremos el nombre del hostname para tener un máster, un nodo1, nodo2 y nodo3. Esto va a cambiar según tu topología y el número de nodos que tengas. Habilitamos el servidor SSH. Aquí existen dos opciones:
+
+* Habilitar un username y un password. Esto es recomendable si van a existir varios administradores.
+* Utulizar tu llave pública. Esto es altamente *recomendable* si sólo existe un administrador. El utilizar la llave pública es una buena práctica de seguridad en el clúster, ya que sólo el que poseé la llave pública puede acceder al clúster.
+
+Opcionalmente se puede configurar la zona horaria y el idioma del teclado.
+
+{{< figure src="https://images.ftapia.me/rpi_imager_6.png" width="600" align="center" >}}
+
+Una vez que tenemos nuestra configuración, damos click en el botón "WRITE" y esperamos a que finalice el proceso.
+
+{{< figure src="https://images.ftapia.me/rpi_imager_7.png" width="600" align="center" >}}
+
+Nos pedirá autorización para poder copiar los archivos en el disco que seleccionamos.
+
+{{< figure src="https://images.ftapia.me/rpi_imager_8.png" width="600" align="center" >}}
+
+Una vez finalizado el proceso, retiramos la microSD o USB de nuestra computadora.
+
+{{% callout warning %}}
+Hemos detectado que en algunos modelos de microSD falla la instalación del sistema operativo. Nuestra recomendación es utilizar tarjetas microSD de buena calidad como SanDisk, Samsung o Kingston.
+{{< figure src="https://images.ftapia.me/rpi_imager_9.png" width="600" align="center" >}}
+{{% /callout %}}
+
+## SSH
+
+## Ansible
+
 
 ## Configurando el nodo maestro
 
