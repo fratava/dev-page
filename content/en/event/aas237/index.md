@@ -73,21 +73,7 @@ projects:
 ---
 The dominant emission mechanisms at millimeter/submillimeter remain largely unknown for most spectral types other than Solar analogues. This is due in part to the lack of data to inform stellar atmosphere models. In this work, we present a new methodology to fit the observed and synthetic spectrum of main-sequence stars through semiempirical models[^2]. We use the Levenberg-Marquardt algorithm as a Nonlinear method, PakalMPI[^1] as the semiempirical model and the observations that are part of an ongoing observational campaign entitled Measuring the Emission of Stellar Atmospheres at Submillimeter/ Millimeter wavelengths[^5]. Our results show that we can use semiempirical models as an input model to reproduce and constrain the observed spectrum of main-sequence stars[^4]. In addition to a better understanding of stellar processes, these models are also essential for determining the stellar contribution to unresolved circumstellar disks at submillimeter/millimeter wavelengths[^3].
 
-{{< tweet 1348624995606540288 >}}
-{{< tweet 1348625944605581313 >}}
-{{< tweet 1348627696373428229 >}}
-{{< tweet 1348628931390402563 >}}
-{{< tweet 1348629614877413377 >}}
-{{< tweet 1348632119086620675 >}}
-{{< tweet 1348632812019179524 >}}
-{{< tweet 1348633231311183880 >}}
-{{< tweet 1348634566555275266 >}}
-{{< tweet 1348635841032294401 >}}
-{{< tweet 1348639447240290316 >}}
-{{< tweet 1348640710506008578 >}}
-{{< tweet 1348642544759013379 >}}
-{{< tweet 1348643740693442560 >}}
-{{< tweet 1348647799299186690 >}}
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Today I&#39;m going to present a project that <a href="https://twitter.com/Jacob_White26?ref_src=twsrc%5Etfw">@Jacob_White26</a> and I have been working on at the <a href="https://twitter.com/hashtag/AAS237?src=hash&amp;ref_src=twsrc%5Etfw">#AAS237</a> meeting. The talk is titled &quot;MESAS Meets KINICH-PAKAL: Measure and Modeling Main Sequence Stellar Atmospheres&quot; 1/n</p>&mdash; Francisco Tapia 📡 (@ftapia_va) <a href="https://twitter.com/ftapia_va/status/1348624995606540288?ref_src=twsrc%5Etfw">January 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## References
 
