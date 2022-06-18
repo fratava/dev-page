@@ -56,7 +56,7 @@ La potencia de procesamiento de las computadoras se mide en unidades llamadas �
 ## ¿Qué es un clúster de HPC?
 Un clúster de HPC consta de cientos o miles de servidores informáticos que están conectados en red. Cada servidor se llama nodo. Los nodos de cada clúster funcionan en paralelo entre sí, lo que aumenta la velocidad de procesamiento para ofrecer informática de alto rendimiento.
 
-{{< figure src="https://images.ftapia.me/cluster-generic.png" width="600" align="center" >}}
+{{< figure src="https://cdn.ftapia.dev/images/cluster-generic.png" width="600" align="center" >}}
 
 ## ¿Cuándo debería utilizar un clúster HPC?
 
@@ -73,7 +73,7 @@ Un clúster de HPC consta de cientos o miles de servidores informáticos que est
 * Análisis de grandes conjuntos de datos: se recurre a la comparación rápida y a la correlación de grandes conjuntos de datos para complementar investigaciones y resolver problemas académicos, científicos, financieros, comerciales, gubernamentales, de salud y de seguridad cibernética. Este trabajo requiere un rendimiento masivo y capacidades de cómputo de una potencia enorme.
 * Modelado avanzado y simulación: al no tener que realizar un montaje físico en las primeras etapas del proceso, el modelado avanzado y la simulación permiten que las empresas ahorren tiempo, materiales y costos de contratación de personal para lanzar sus productos al mercado con mayor rapidez.  El modelado y la simulación en HPC se aplican en el descubrimiento y la prueba de fármacos, diseños automotrices y aeroespaciales, pronóstico de sistemas climáticos o meteorológicos, y aplicaciones energéticas.
 
-{{< figure src="https://images.ftapia.me/fugaku.jpeg" caption="Supercomputadora Fugaku. Segunda supercomptadora según el [Top500](https://www.top500.org/lists/top500/2022/06/) en Junio de 2022." width="600" align="center" >}}
+{{< figure src="https://cdn.ftapia.dev/images/fugaku.jpeg" caption="Supercomputadora Fugaku. Segunda supercomptadora según el [Top500](https://www.top500.org/lists/top500/2022/06/) en Junio de 2022." width="600" align="center" >}}
 
 
 
@@ -93,7 +93,7 @@ Las carecterísticas del Raspberry Pi 4 son:
 
 Para más detalles puedes consultar la [documentación oficial de Raspberry](https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2711/README.md).
 
-{{< figure src="https://images.ftapia.me/RaspberryPi_Model_4B.svg" width="600" align="center" >}}
+{{< figure src="https://cdn.ftapia.dev/images/RaspberryPi_Model_4B.svg" width="600" align="center" >}}
 
 ## ¿Por qué construir un clúster con Raspberry Pi?
 * Es barato. Las placas Raspberry Pi 4 funcionan como nodos de cómputo y debido a su arquitectura, no es necesario tener una infraestructura especializada. Además, el costo de cada nodo es inferior al de uno tradicional.

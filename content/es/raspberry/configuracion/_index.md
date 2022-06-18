@@ -17,10 +17,10 @@ Una vez que hemos terminado con la parte del hardware, vamos a configurar la par
 ## Topología del clúster
 
 ### Tree
-{{< figure src="https://images.ftapia.me/tree-topo.svg" width="600" align="center" >}}
+{{< figure src="https://cdn.ftapia.dev/images/tree-topo.svg" width="600" align="center" >}}
 
 ### Dragonfly
-{{< figure src="https://images.ftapia.me/dragonfly.svg" width="600" align="center" >}}
+{{< figure src="https://cdn.ftapia.dev/images/dragonfly.svg" width="600" align="center" >}}
 
 
 ## Instalando el sistema operativo
@@ -33,23 +33,23 @@ La forma más sencilla de instalar el sistema operativo en las tarjetas microSD 
 
 Descargamos Raspberry Pi Imager para nuestro sistema operativo desde [https://www.raspberrypi.org/software/](https://www.raspberrypi.org/software/). Una vez instalado lo abrimos y veremos la pantalla principal.
 
-{{< figure src="https://images.ftapia.me/rpi_imager_1.png" width="600" align="center" >}}
+{{< figure src="https://cdn.ftapia.dev/images/rpi_imager_1.png" width="600" align="center" >}}
 
 Ahí seleccionaremos el sistema operativo en el botón "CHOOSE OS". Encontraremos varias versiones de Raspbian un fork de Debian, y un pestaña de otros sistemas operativos. Damos click.
 
-{{< figure src="https://images.ftapia.me/rpi_imager_2.png" width="600" align="center" >}}
+{{< figure src="https://cdn.ftapia.dev/images/rpi_imager_2.png" width="600" align="center" >}}
 
 En esta pestaña encontraremos a Ubuntu y otros sistemas, seleccionamos nuevamente la pestaña de Ubuntu para buscar la versión que utilizaremos.
 
-{{< figure src="https://images.ftapia.me/rpi_imager_3.png" width="600" align="center" >}}
+{{< figure src="https://cdn.ftapia.dev/images/rpi_imager_3.png" width="600" align="center" >}}
 
 Buscamos la versión "Ubuntu Server 20.04 LTS de 64-bits".
 
-{{< figure src="https://images.ftapia.me/rpi_imager_4.png" width="600" align="center" >}}
+{{< figure src="https://cdn.ftapia.dev/images/rpi_imager_4.png" width="600" align="center" >}}
 
 YA que la hemos seleccionado, regresamos a la pantalla principal y ahora seleccionamos el botón "CHOOSE STORAGE". Se desplejará un menú en dónde tenedremos que elegir el disco en el cuál deseamos instalar el sistema operativo. En nuestro caso escogeremos la microSD de 32 GB.
 
-{{< figure src="https://images.ftapia.me/rpi_imager_5.png" width="600" align="center" >}}
+{{< figure src="https://cdn.ftapia.dev/images/rpi_imager_5.png" width="600" align="center" >}}
 
 Recomendamos ampliamente hacer una configuración del sistema en esta etapa. En la siguiente imagen se muestran la configuraciones que tendremos en este clúster. Cambiaremos el nombre del hostname para tener un máster, un nodo1, nodo2 y nodo3. Esto va a cambiar según tu topología y el número de nodos que tengas. Habilitamos el servidor SSH. Aquí existen dos opciones:
 
@@ -58,21 +58,21 @@ Recomendamos ampliamente hacer una configuración del sistema en esta etapa. En 
 
 Opcionalmente se puede configurar la zona horaria y el idioma del teclado.
 
-{{< figure src="https://images.ftapia.me/rpi_imager_6.png" width="600" align="center" >}}
+{{< figure src="https://cdn.ftapia.dev/images/rpi_imager_6.png" width="600" align="center" >}}
 
 Una vez que tenemos nuestra configuración, damos click en el botón "WRITE" y esperamos a que finalice el proceso.
 
-{{< figure src="https://images.ftapia.me/rpi_imager_7.png" width="600" align="center" >}}
+{{< figure src="https://cdn.ftapia.dev/images/rpi_imager_7.png" width="600" align="center" >}}
 
 Nos pedirá autorización para poder copiar los archivos en el disco que seleccionamos.
 
-{{< figure src="https://images.ftapia.me/rpi_imager_8.png" width="600" align="center" >}}
+{{< figure src="https://cdn.ftapia.dev/images/rpi_imager_8.png" width="600" align="center" >}}
 
 Una vez finalizado el proceso, retiramos la microSD o USB de nuestra computadora.
 
 {{% callout warning %}}
 Hemos detectado que en algunos modelos de microSD falla la instalación del sistema operativo. Nuestra recomendación es utilizar tarjetas microSD de buena calidad como SanDisk, Samsung o Kingston.
-{{< figure src="https://images.ftapia.me/rpi_imager_9.png" width="600" align="center" >}}
+{{< figure src="https://cdn.ftapia.dev/images/rpi_imager_9.png" width="600" align="center" >}}
 {{% /callout %}}
 
 ## SSH

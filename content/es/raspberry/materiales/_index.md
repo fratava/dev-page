@@ -20,7 +20,7 @@ En la primer parte del proyecto, vamos a revisar los accesorios que son necesari
 - Cable de red Cat 5e
 - Switch ethernet (preferentemente Gigabit)
 
-{{< figure src="https://images.ftapia.me/cluster_material.jpg" width="600" align="center" >}}
+{{< figure src="https://cdn.ftapia.dev/images/cluster_material.jpg" width="600" align="center" >}}
 
 ### Materiales opcionales
 - Carcasa 
@@ -30,20 +30,20 @@ En la primer parte del proyecto, vamos a revisar los accesorios que son necesari
 
 Estos accesorios se recomiendan para terner un mejor rendiemiento y poder elevar la frecuencia de reloj del procesador. Además, protejen a la placa del polvo y otros elementos. El cable micro HDMI es sólo si no cuentas con una computadora principal.
 
-{{< figure src="https://images.ftapia.me/piezas_rpi.jpg" width="600" align="center" >}}
+{{< figure src="https://cdn.ftapia.dev/images/piezas_rpi.jpg" width="600" align="center" >}}
 
 ### Armado del clúster
 
 El armado del cluster es sencillo. En caso de que se haya comprado disipadores, se tiene que pegar sobre la cpu, gpu y la RAM. Si cuentas con ventilador y carcasa, tendrás que atornillarlos. 
 
-{{< figure src="https://images.ftapia.me/rpi_armado.jpeg" width="600" align="center" >}}
+{{< figure src="https://cdn.ftapia.dev/images/rpi_armado.jpeg" width="600" align="center" >}}
 
 
 Ese paso hay que hacerlo para cada uno de los Raspberry Pi 4 que vayamos a utilizar para el clúster.
 
 Después, conectaremos los cables ethernet a cada uno de los Raspberry. Es recomendable sólo conectar un Rapsberry a la vez al switch para configurarlos individualmente. También debemos conectar los adaptadores de corriente. Al final, debemos tener algo como la siguiente imagen.
 
-{{< figure src="https://images.ftapia.me/cluster_armado.jpg" width="600" align="center" >}}
+{{< figure src="https://cdn.ftapia.dev/images/cluster_armado.jpg" width="600" align="center" >}}
 
 
 {{% callout info %}}
