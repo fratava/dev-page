@@ -9,3 +9,12 @@ node_modules/
 content/en/post/devops/.DS_Store
 content/en/post/cs21/.DS_Store
 .hugo_build.lock
+.DS_Store
+.DS_Store
+assets/.DS_Store
+assets/media/albums/.DS_Store
+content/.DS_Store
+content/en/.DS_Store
+content/en/event/.DS_Store
+content/en/post/.DS_Store
+content/en/publication/.DS_Store
