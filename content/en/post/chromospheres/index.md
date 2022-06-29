@@ -16,7 +16,7 @@ slug: chromosphere
 date: "2021-06-18T00:00:00Z"
 
 # Date updated
-lastmod: "2021-06-18T00:00:00Z"
+lastmod: "2022-06-18T00:00:00Z"
 
 # Is this an unpublished draft?
 draft: true
@@ -43,4 +43,4 @@ categories:
 - Blog
 ---
 
-
+Hola
