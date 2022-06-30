@@ -44,6 +44,27 @@ tags:
 
 categories:
 - Blog
+
+links:
+- icon: file-pdf
+  icon_pack: far
+  name: "Poster"
+  url: https://cdn.ftapia.dev/poster/cs21.pdf
+
+- icon: globe
+  icon_pack: fas
+  name: "Víctor De la Luz's website"
+  url: http://www.gicc.unam.mx/vdelaluz/
+
+- icon: globe
+  icon_pack: fas
+  name: "Luis Zapata's website"
+  url: https://www.irya.unam.mx/web/en/people/research-staff/l-zapata
+
+- icon: twitter
+  icon_pack: fab
+  name: Jacob on Twitter
+  url: https://twitter.com/Jacob_White26
 ---
 
 # Introduction
@@ -84,9 +105,10 @@ improvements in the sensitivity and space resolution in modern
 radio telescopes are made (Nakajima et al. 1995; Kudaka et al.
 2015; Wedemeyer et al. 2016).
 
+# Methods
+
+
 # Results
-
-
 
 
 # Acknowledgement
