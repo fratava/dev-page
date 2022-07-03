@@ -18,3 +18,5 @@ content/en/.DS_Store
 content/en/event/.DS_Store
 content/en/post/.DS_Store
 content/en/publication/.DS_Store
+.DS_Store
+static/.DS_Store
