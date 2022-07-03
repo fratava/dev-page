@@ -13,54 +13,6 @@ projects:
 slug: cs21
 
 # Date published
-date: "2021-06-18T00:00:00Z"
-
-# Date updated
-lastmod: "2022-06-18T00:00:00Z"
-
-# Is this an unpublished draft?
-draft: false
-
-# Show this page in the Featured widget?
-featured: false
-
-# Featured image
-# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
-image:
-  caption: '"Image" of Altair at 33 GHz taken with VLA interferometer. [(White et al., 2021)](https://lucnix.be/)'
-  focal_point: ""
-  placement: 1
-  preview_only: false
-
-authors:
-- admin
-- Victor De la Luz
-- Luis Zapata
-- Jacob White
-
-tags:
-- Main Sequence Stars
-- Stars
-
-categories:
-- Blog
----
-
----
-title: New Insights into Stellar Atmospheres at Millimeter, Sub-millimeter, and Infrared wavelengths
-subtitle: ''
-
-# Summary for listings and search engines
-summary: 'kinich-pakal'
-
-# Link this post with a project
-projects: 
-- kinich-pakal
-
-#Short name
-slug: cs21
-
-# Date published
 date: "2022-06-15T00:00:00Z"
 
 # Date updated
@@ -137,7 +89,7 @@ Our work is based in previous models of main sequence stars obtained from FIR to
 
 Observations at frequencies greater than 1000 GHz were obtained from Herschel data archival. Beetween 1000 GHz and 90 GHz observations came from ALMA and NOEMA. For low frequencies like 33 GHz and 17 GHz, observations were performand with VLA and ATCA. 
 
-In literature we can  (Villadsen et al. 2014, Liseau et al. 2016, White et al. 2018, Rodríguez et al. 2019, White et al. 2020, White et al. 2021)
+In literature we can (Villadsen et al. 2014, Liseau et al. 2016, White et al. 2018, Rodríguez et al. 2019, White et al. 2020, White et al. 2021)
 
 
 
